@@ -1,0 +1,137 @@
+/*
+* Front: event listing
+*/
+
+.event-filter select {
+    padding: 8px 10px;
+}
+.listContainer {
+    overflow-y: hidden;
+    height: auto;
+    border-width: 0px;
+    border-color: rgba(255, 255, 255, 1);
+    background-color: rgba(0, 0, 0, 0);
+}
+.listDivider {
+    padding: 10px 0px;
+    border-bottom-width: 1px;
+    margin-top: -1px;
+    border-top-width: 1px;
+    border-color: rgba(0, 0, 0, 0.15);
+    -webkit-box-sizing: content-box;
+    box-sizing: content-box;
+    -webkit-transition: border-color .4s;
+    transition: border-color .4s;
+    border-style: solid;
+    border-width: 0;
+    border-bottom: 1px solid;
+}
+.eventlist {
+    overflow: hidden;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    width: 100%;
+}
+.event-item {
+    left: -108px;
+    position: relative;
+    left: 0;
+    -webkit-transition: left .4s;
+    transition: left .4s;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    cursor: pointer;
+    -webkit-box-flex: 1;
+    -ms-flex-positive: 1;
+    flex-grow: 1;
+    max-width: calc(100% - 200px);
+}
+.event-date {
+    width: 108px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+}
+.listHeaderTitle {
+    font-size: 26px;
+    font: normal normal bold 21px/1.4em avenir-lt-w01_85-heavy1475544, sans-serif;
+    color: rgba(0, 0, 0, 1);
+}
+.ev-date-section {
+    line-height: 1.5!important;
+    margin-top: calc(0px + -.25em);
+    margin-bottom: calc(0px + -.25em);
+    font-size: 14px!important;
+}
+.ev-date-weekday,
+.ev-date-month {
+    opacity: 0.5;
+}
+.event-detail {
+    width: calc(100% - 0px);
+}
+.event-details-section {
+    width: calc(100% - 108px);
+}
+.event-details {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: baseline;
+    -ms-flex-align: baseline;
+    align-items: baseline;
+    white-space: nowrap;
+}
+.ev-list-item-title {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    max-width: 90%;
+    line-height: 1.5!important;
+}
+.ev-list-item-location {
+    font-size: 16px;
+    font: normal normal normal 14px/1.4em avenir-lt-w01_35-light1475496, sans-serif;
+    color: rgba(0, 0, 0, 1);
+}
+.ev-date-weekday,
+.ev-down-arrow {
+    display: none;
+}
+.ev-rsvp-section {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -ms-flex-item-align: start;
+    align-self: flex-start;
+    -ms-flex-negative: 0;
+    flex-shrink: 0;
+    height: 80px;
+}
+.event-show-container {
+    padding: 35px 0px;
+}
+
+.event-pagination{
+    text-align: right;
+    margin-bottom: 0;
+    border-top: 0;
+}
+
+
